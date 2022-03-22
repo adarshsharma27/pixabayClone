@@ -60,6 +60,7 @@ const Description = () => {
                     return <span className="bg-gray-200 px-2 dark:text-white dark:bg-gray-800" key={index}>#{elem}</span>;
                   })}
                 </p>
+                <div className="pt-4">
                 <a
             href={element.previewURL}
             className="bg-purple-700 text-white w-8/12 text-lg px-5 py-2  mr-4 hover:bg-blue-500"
@@ -72,6 +73,7 @@ const Description = () => {
           >
            Back
           </NavLink>
+          </div>
               </div>
                
             </div>

@@ -24,7 +24,7 @@ const Search = () => {
   {(news === null) ? <Loader/>:
     <>
     <div className="bg-white dark:bg-gray-700">
-      <h3 className="text-2xl font-bold pt-4 text-center font-mulish bg-white dark:bg-gray-700">
+      <h3 className="text-2xl font-bold pt-4 text-center font-mulish bg-white dark:bg-gray-700 dark:text-white">
         Most Popular Images
       </h3>
                     
